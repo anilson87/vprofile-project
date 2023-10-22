@@ -35,7 +35,7 @@ services:
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
     
-  vproapp:
+  vproweb:
     build:
       context: ./Docker-files/web
     image: anilson87/vprofileweb
